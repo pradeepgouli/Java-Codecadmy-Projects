@@ -1,0 +1,51 @@
+import java.util.ArrayList;
+
+class Playlist {
+
+  
+
+  public static void main(String[] args) {
+
+ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
+
+desertIslandPlaylist.add("Rompo i lacci!");
+
+desertIslandPlaylist.add("Toccata e fuga");
+
+desertIslandPlaylist.add("Sorge talora");
+
+desertIslandPlaylist.add("Torbido intorno al cuore");
+
+desertIslandPlaylist.add("Erfteute Ich, Herzen");
+
+desertIslandPlaylist.add("Water Music");
+
+desertIslandPlaylist.add("Music for the Royal Fireworks");   
+
+ System.out.println(desertIslandPlaylist); 
+
+ System.out.println(desertIslandPlaylist.size()); 
+
+desertIslandPlaylist.remove(2);
+
+desertIslandPlaylist.remove(4); 
+
+System.out.println(desertIslandPlaylist.size()); 
+
+System.out.println(desertIslandPlaylist); 
+
+
+int indexA = desertIslandPLaylist.indexOf("Toccata e fuga");
+
+int indexB = desertIslandPlaylist.indexOf("Torbido intorno al cuore");
+
+String tempA = "Toccata e fuga";    
+
+desertIslandPlaylist.set(indexA, "Torbido intorno al cuore");
+
+System.out.println(desertIslandPlaylist.size()); 
+
+System.out.println(desertIslandPlaylist); 
+
+  }
+}
